@@ -14,6 +14,7 @@ const config = {
     'background': './background.ts',
     'popup/popup': './popup/popup.ts',
     'options/options': './options/options.ts',
+    'content-script/index': './content-script/index.ts',
   },
   output: {
     path: __dirname + '/dist',
@@ -103,7 +104,7 @@ const config = {
     new WebpackShellPluginNext({
       onBuildEnd: {
         scripts: [
-          'yarn web-ext --config=.web-ext.config.js run --url about:addons --url about:debugging#/runtime/this-firefox',
+          'yarn web-ext --config=.web-ext.config.js run --url about:addons --url about:debugging#/runtime/this-firefox --url google.com',
           "echo -e \x1b[1m\x1b[95mOpening Firefox...\x1b[0m"
         ],
         blocking: false,
