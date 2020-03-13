@@ -17,4 +17,4 @@ git init
 
 ## Adding Content Scripts
 
-There is 1 content script included in this template. To add more, follow the changes made in [this commit](https://github.com/aklinker1/vue-ts-web-ext-template/commit/42c969d419226cc05c81011b9a46dd8012cb8bdd).
+There is 1 content script included in this template. To add more, follow the changes made in [this commit](https://github.com/aklinker1/vue-ts-web-ext-template/commit/0bfcb38cee1eb71ae63c32f73e13fd5580cd0254).
